@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>无标题文档</title>
+		<style>
+			*{
+				margin: 0px auto
+			}
+			#top{
+				background:url("images/top.png");
+				height: 82px;
+				width: 1003px;
+				
+			}
+			#banner{
+				height: 44px;
+				width: 1003px;
+			}
+			
+			#banner01{
+				height: 44px;
+				width: 389px;
+				background:url("images/banner.png");
+				float: left;
+			}
+			#banner02{
+				float: left;
+				height: 44px;
+				width: 614px;
+				margin-top: 10px;
+			}
+			#center{
+				height: 460px;
+				width: 1003px;
+			}
+			#center01{
+				background: url("images/reg.png");
+				height: 460px;
+				width: 670px;
+				float: left;
+			}
+			#center02{
+				float: left;
+				margin-top: 50px;
+				margin-left: 20px;
+			}
+			#buttom{
+				background:url("images/buttom.png");
+				height: 112px;
+				width: 1060px;
+				margin-top: 20px;
+			}
+			.cli{
+				float: left;
+				list-style: none;
+			}
+			a{
+				font-size: 16px;
+				font-weight: bold;
+				color: #FC608B;
+				text-decoration: none;
+				margin-left: 60px;
+				text-align: center;
+			}
+			
+			input{
+				border: 1px solid #FF6699;
+				color:#F99;
+			}
+			select{
+				width: 100px;
+				height: 20px;
+				border: 1px solid #FF6699;
+				
+			}
+			td{
+				color: #FF6699;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="top"></div>
+		<div id="banner">
+			<div id="banner01"></div>
+			<div id="banner02">
+				<ul>
+					<li class="cli"><a href="#">今日秒杀</a></li>
+				</ul>
+				<ul>
+					<li class="cli"><a href="#">新特卖</a></li>
+				</ul>
+				<ul>
+					<li class="cli"><a href="#">热销活动</a></li>
+				</ul>
+				<ul>
+					<li class="cli"><a href="#">女装品牌</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="center">
+			<div id="center01"></div>
+			<div id="center02">
+				<table border="0" cellpadding="0" cellspacing="0" width="250px" height="350px">
+					<tr>
+						<td width="100px" height="50px">用户名:</td>
+						<td><input style="text" width="100px;30px"></td>
+					</tr>
+					<tr>
+						<td width="100px" height="50px">密码:</td>
+						<td><input type="password" width="100px;30px"></td>
+					</tr>
+					<tr>
+						<td width="100px" height="50px">确认密码:</td>
+						<td><input type="password" width="100px;30px"></td>
+					</tr>
+					<tr>
+						<td width="100px" height="50px">所属城市:</td>
+						<td>
+							<select>
+								<option value="南宁市">南宁市</option>
+								<option value="梧州市">梧州市</option>
+								<option value="柳州市">柳州市</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>性别</td>
+						<td>
+						<input type="radio"  name="nan"/>男
+						<input type="radio" name="nv"/>女
+						</td>
+					</tr>
+					<tr align="center">
+						<td colspan="2">
+							<input type="submit" style="background-color: #FF6699;font-size: 20px; width: 100px;40px">
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="buttom"</div>
+	</body>
+</html>
